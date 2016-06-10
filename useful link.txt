@@ -1,0 +1,62 @@
+Magento Admin Info:
+	Username: quangsonpro
+	Email: vuquangson1610@gmail.com
+	Password: langtudeptrai123
+
+Magento market account
+	Username: quangsonpro
+	Password: langtu486153!
+
+Your Store Address: 
+	http://localhost/magento-training/
+Magento Admin Address: 
+	http://localhost/magento-training/admin_4lil1c/
+	http://localhost/magento-training/admin/
+	http://localhost/magento2/admin_backend/
+
+Encryption Key:
+	7cf417a3aed52707b359db93d3d3f19a
+Database Info:
+	Database Name: magento_training
+	Username: root
+	Password: 
+
+Enable profiler for debugging
+	https://github.com/mirasvit/module-profiler
+
+Public Key:
+	77f5f1f41372231906fedee7c8a806e7
+Private Key:
+	45929f8deb86e7122aaa7df8f2643830
+
+$ bin/magento mirasvit:profiler:enable # Enable profiler
+$ bin/magento mirasvit:profiler:disable # Disable profiler
+$ bin/magento mirasvit:profiler:status # Current status
+$ bin/magento mirasvit:profiler:allow-ips 127.0.0.1 192.268.22.11 # Allow only specified IPs
+$ bin/magento mirasvit:profiler:allow-ips --none # Remove IP restriction
+
+$ php bin/magento setup:upgrade
+$ php bin/magento cache:enable
+$ php bin/magento cache:disable
+$ php bin/magento cache:flush
+$ php bin/magento cache:clean
+$ rm -rf var/generation/* var/cache/*
+$ rm -rf var/cache/ var/generation/ var/page_cache/ var/view_preprocessed/ 
+$ php bin/magento setup:di:compile
+$ php bin/magento setup:static-content:deploy
+$ php bin/magento sampledata:deploy
+
+Resources:
+	https://github.com/magento/magento2-samples
+	http://blog.magestore.com/how-to-create-custom-theme-on-magento-2-part-1/
+	http://blog.magestore.com/how-to-create-a-simple-module-in-magento-2-0/
+	http://blog.magestore.com/magento-2/page/5/
+	http://www.sessiondigital.com/blog/magento-2-tutorial-how-to-use-the-new-front-end-templating-system/
+	http://www.magestore.com/magento-2-tutorial/
+
+1. How to install Magento 2.0 on local host XAMPP http://blog.magestore.com/how-to-install-magento-2/
+done
+2. How To Create Module In Magento 2.0 in simple http://blog.magestore.com/how-to-create-a-simple-module-in-magento-2-0/
+done
+3. How To Install Magento 2 (updated for the latest version) http://blog.magestore.com/install-magento-2-updated-latest-version/
+done
